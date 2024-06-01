@@ -228,6 +228,27 @@ body.light-theme {
   color: var(--text-color-light);
 }
 
+/* for styling scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  background: #0000; 
+  border-radius: 21px;
+  }
+  /* Handle */
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(90deg, #bae0ff  0%, #77BEF8 100%);
+  border-radius: 21px;
+  }
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: -webkit-linear-gradient(90deg, #bae0ff 0%, #77BEF8 100%); 
+}
+
 /*=============== HEADER & NAV===============*/
 .header {
   position: fixed;
